@@ -1,0 +1,46 @@
+td {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #000;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 60px;
+}
+.ticTacBody {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    margin-left: -155px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr:first-child .cell{
+    border-top: 0;
+}
+table tr:last-child .cell{
+    border-bottom: 0;
+}
+table tr .cell:first-child{
+    border-left: 0;
+}
+table tr .cell:last-child{
+    border-right: 0;
+}
+.endGame {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -100px;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(66, 218, 245, 0.8);
+    border-radius: 10px;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
